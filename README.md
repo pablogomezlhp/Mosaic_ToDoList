@@ -2,8 +2,6 @@
 
 # ToDoList - MongoDb, NodeJs and Reactjs
 
-In the project directory, you can run:
-
 
 ## About The Project
 
@@ -23,6 +21,8 @@ The Project was developed using:
 * [EmailJS](https://www.emailjs.com)
 * [NodeJS](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com)
+
+In the project directory, you can run:
 
 ### `npm install`
 
