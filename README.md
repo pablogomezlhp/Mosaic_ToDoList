@@ -18,7 +18,6 @@ The Project was developed using:
 * [CSS](https://www.w3schools.com/css/)
 * [HTML](https://www.w3schools.com/html/)
 * [JavaScript](https://www.javascript.com)
-* [EmailJS](https://www.emailjs.com)
 * [NodeJS](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com)
 
