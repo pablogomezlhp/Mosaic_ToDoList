@@ -1,0 +1,23 @@
+.collpase {
+  margin-top: 5%;
+  padding-left: 60%;
+}
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #d9e3f5;
+  display: inline;
+  padding-left: 10px;
+}
+.nav-link:hover {
+  color: #fff;
+  -webkit-transition: 0.5s;
+}
+.navbar-item {
+  margin-right: 10px;
+}
+.navbar {
+  padding-right: 1vw;
+}

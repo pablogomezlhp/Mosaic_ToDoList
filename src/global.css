@@ -1,0 +1,178 @@
+body{
+  font-family: Roboto;
+  background: #635FDA;
+  -webkit-font-smoothing:antialized;
+}
+
+form{
+  margin-top:-30px;
+  padding:20px;
+  width: 100%;
+  align-items: center;
+  
+}
+label{
+  color: #666666;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100px;
+}
+
+.form-control{
+
+  background: rgba(196, 196, 196, 0.29);
+  border-radius: 5px;
+  border: none;
+}
+
+#exerciseBackground{
+  margin-top:-70px;
+  
+background: #F9F9F9;
+box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  width: 40%;
+  margin-left: 30%;
+}
+.buttonC{
+
+  background: #756EFA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+height: 56px;
+width: 200px;
+  border-radius: 2px;
+  border: 0;
+  padding: 0 16px;
+  color: #FFF;
+  font-weight: 500;
+  margin-top: 16px;
+  transition: background-color 0.2s;
+  justify-content: center;
+  margin-left: 0%;
+}
+.buttonCreateUser{
+
+  background: #756EFA;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+height: 56px;
+width: 200px;
+  border-radius: 2px;
+  border: 0;
+  padding: 0 16px;
+  color: #FFF;
+  font-weight: 500;
+  margin-top: 16px;
+  transition: background-color 0.2s;
+  justify-content: center;
+  margin-left: 0%;
+}
+
+#formCreate{
+  background:#666666;
+  padding:20px;
+  width: 30%;
+  margin-left:34%;
+}
+
+h1{
+  margin-top:5%;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+}
+
+#formEdit{
+  background: #F9F9F9;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  width: 30%;
+  margin-left: 35vw;
+  font-family: Roboto;
+}
+#formCreateUser{
+  background: #F9F9F9;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  width: 30%;
+  margin-left: 35vw;
+  font-family: Roboto;
+}
+footer{
+  margin-left: 45%;
+  position: absolute;
+  top:70%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  color:#D9E3F5;
+  font-family: Roboto;
+}
+
+#lastPage{
+  position:relative;
+  margin-top: -100px;
+  height: 50vh;
+  background-image: url('./Assets/street3.png');
+  z-index: -1;
+  }
+
+
+  @media only screen and (max-width: 600px){
+    #formCreateUser{
+      background: #F9F9F9;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+      width: 80%;
+      margin-top: 50px;
+      padding-left: 50px;
+      margin-left: 40px;
+      font-family: Roboto;
+    }
+    #exerciseBackground{
+      margin-top:-70px;
+      padding: 10px;
+      
+    background: #F9F9F9;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+      width: 90%;
+      margin:20px;
+    }
+
+    #formEdit{
+      background: #F9F9F9;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+      width: 80%;
+      margin-left:40px;
+      margin-top: 30px;
+      font-family: Roboto;
+    }
+    
+
+    footer{
+      display: none;
+    }
+  }
+
+  @media only screen and (device-width: 768px){
+    #lastPage{
+      padding-top: 950px;
+      background-image: url('./Assets/street3.png');
+      z-index: -1;
+      display: none;
+      }
+
+      #formCreateUser{
+        background: #F9F9F9;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-family: Roboto;
+      }
+      #exerciseBackground{
+        margin-top:0;
+        
+      background: #F9F9F9;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+        width: 40%;
+        margin-left: 30%;
+      }
+
+  }

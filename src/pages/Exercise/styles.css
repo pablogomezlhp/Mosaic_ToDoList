@@ -1,0 +1,97 @@
+h3 {
+  margin-top: 10vw;
+  margin-bottom: 2vw;
+  padding-left: 10vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 110.5%;
+  display: flex;
+  align-items: center;
+  color: #cad3f2;
+}
+h2 {
+  display: flex;
+  margin-top: 5vw;
+  margin-bottom: 7vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 110.5%;
+  align-items: center;
+  color: #cad3f2;
+  justify-content: center;
+}
+#table-exercises {
+  width: 80%;
+  height: 250px;
+  margin-left: 10vw;
+}
+
+tbody {
+  background: #f9f9f9;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 169%;
+  /* identical to box height, or 24px */
+
+  align-items: center;
+
+  /* Dark */
+  color: #666666;
+}
+tr:hover {
+  transform: translateX(10px);
+  background: #f9f9f9;
+}
+tr {
+  transition: transform 0.2s;
+  background: #f9f9f9;
+}
+#table-tr {
+  background: #c4c4c4;
+  pointer-events: none;
+}
+#thirdPage {
+  margin-top: 47px;
+  bottom: 0;
+  height: 5vh;
+  background-image: url("../../Assets/street2.png");
+  z-index: -1;
+}
+#secondPage {
+  margin-top: 210px;
+  bottom: 0;
+  height: 4vh;
+  background-image: url("../../Assets/street2.png");
+  z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  #table-exercises {
+    width: 100px;
+    height: 150px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  #secondPage {
+    margin-top: 363px;
+    bottom: 0;
+    height: 5vh;
+    background-image: url("../../Assets/street2.png");
+    z-index: -1;
+  }
+  #thirdPage {
+    margin-top: 247px;
+    bottom: 0;
+    height: 5vh;
+    background-image: url("../../Assets/street2.png");
+    z-index: -1;
+  }
+}
