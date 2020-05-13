@@ -53,7 +53,7 @@ The entire site was designed on Figma based on the principles of mobile, all the
 I opted for Bootstrap grid. The Page was designed from the ground up and the color choices were also thought of in the best contrast for the user/view
 
 ### Font
-- Inter. Inter features a tall x-height to aid in readability of mixed-case and lower-case text. Several OpenType features are provided as well, like contextual alternates that adjusts punctuation depending on the shape of surrounding glyphs, slashed zero for when you need to disambiguate "0" from "o", tabular numbers, etc.
+- Roboto. Inter features a tall x-height to aid in readability of mixed-case and lower-case text. Several OpenType features are provided as well, like contextual alternates that adjusts punctuation depending on the shape of surrounding glyphs, slashed zero for when you need to disambiguate "0" from "o", tabular numbers, etc.
 
 ### Testing
 
