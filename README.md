@@ -1,68 +1,97 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![teste4](https://user-images.githubusercontent.com/51464234/81825885-17971400-952f-11ea-95ea-0eee3e1a5be4.png)
 
-## Available Scripts
+# ToDoList - MongoDb, NodeJs and Reactjs
 
 In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<img width="1440" alt="Screenshot 2020-05-13 at 15 26 40" src="https://user-images.githubusercontent.com/51464234/81826257-82484f80-952f-11ea-95ed-a1061f29cabe.png">
 
-### `yarn test`
+The project is a simple ToDoList that aims to capture logs registered by users in order to be able to archive all exercises done by the user. This is a simple and clean project developed from scratch.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `yarn build`
+The Project was developed using:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [React Js](https://reactjs.org)
+* [React Bootstrap](https://react-bootstrap.github.io)
+* [CSS](https://www.w3schools.com/css/)
+* [HTML](https://www.w3schools.com/html/)
+* [JavaScript](https://www.javascript.com)
+* [EmailJS](https://www.emailjs.com)
+* [NodeJS](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `nodemon server` to run backend
 
-### `yarn eject`
+### `npm start` to a Frontend 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## UX
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="1440" alt="Screenshot 2020-05-13 at 15 47 16" src="https://user-images.githubusercontent.com/51464234/81827850-136bf600-9531-11ea-9dc4-c736b903b78a.png">
+<img width="1440" alt="Screenshot 2020-05-13 at 15 47 09" src="https://user-images.githubusercontent.com/51464234/81827861-1666e680-9531-11ea-9cd1-c11a303874fd.png">
 
-## Learn More
+## User Stories
+As a user, I would like to see clean pages with accurate information and easy navigation.
+The entire site was designed on Figma based on the principles of mobile, all the features were implemented from mobile to the desktop. but a responsive menu needs to be implemented. it can be added with the Bootstrap.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Desktop View
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1440" alt="Screenshot 2020-05-13 at 15 26 40" src="https://user-images.githubusercontent.com/51464234/81828826-23380a00-9532-11ea-9296-609f8105293c.png">
+<img width="1440" alt="Screenshot 2020-05-13 at 15 54 41" src="https://user-images.githubusercontent.com/51464234/81828772-15828480-9532-11ea-9904-024d8c984be2.png">
+<img width="1440" alt="Screenshot 2020-05-13 at 15 26 47" src="https://user-images.githubusercontent.com/51464234/81828654-ecfa8a80-9531-11ea-8259-02d721d2a1a1.png">
+<img width="1440" alt="Screenshot 2020-05-13 at 15 26 54" src="https://user-images.githubusercontent.com/51464234/81828603-df450500-9531-11ea-8b02-a10320e1a1ea.png">
+<img width="1440" alt="Screenshot 2020-05-13 at 15 27 00" src="https://user-images.githubusercontent.com/51464234/81828427-b02e9380-9531-11ea-82fb-7451fc1b3d14.png">
 
-### Code Splitting
+### Template Style
+I opted for Bootstrap grid. The Page was designed from the ground up and the color choices were also thought of in the best contrast for the user/view
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Font
+- Inter. Inter features a tall x-height to aid in readability of mixed-case and lower-case text. Several OpenType features are provided as well, like contextual alternates that adjusts punctuation depending on the shape of surrounding glyphs, slashed zero for when you need to disambiguate "0" from "o", tabular numbers, etc.
 
-### Analyzing the Bundle Size
+### Testing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+* HTML
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Freeformatter
 
-### Advanced Configuration
+The W3C Markup Validation Service
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+* CSS
 
-### Deployment
+The W3C Markup Validation Service
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+* JSX
 
-### `yarn build` fails to minify
+JSX Formatter / Prettier
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* BackEnd Routes
+
+
+<img width="944" alt="Screenshot 2020-05-13 at 15 24 49" src="https://user-images.githubusercontent.com/51464234/81829093-727e3a80-9532-11ea-947e-fc1d077673e3.png">
+<img width="944" alt="Screenshot 2020-05-13 at 15 25 00" src="https://user-images.githubusercontent.com/51464234/81829096-73af6780-9532-11ea-8fcf-e60fe108db0b.png">
+<img width="944" alt="Screenshot 2020-05-13 at 15 25 39" src="https://user-images.githubusercontent.com/51464234/81829098-73af6780-9532-11ea-8cfc-7e0839f3c985.png">
+<img width="944" alt="Screenshot 2020-05-13 at 15 25 52" src="https://user-images.githubusercontent.com/51464234/81829102-74e09480-9532-11ea-9d7e-928b310feefa.png">
+<img width="944" alt="Screenshot 2020-05-13 at 15 26 00" src="https://user-images.githubusercontent.com/51464234/81829105-75792b00-9532-11ea-830d-9049660753ea.png">
+<img width="944" alt="Screenshot 2020-05-13 at 15 26 15" src="https://user-images.githubusercontent.com/51464234/81829109-76aa5800-9532-11ea-9aea-a27ee11c259c.png">
+
+
+
+
+
+
+
+## Github Pages Link
+https://github.com/pablogomezlhp
+
+Copyright 2020 - Pablo Patrick
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
